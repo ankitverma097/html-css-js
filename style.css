@@ -1,0 +1,49 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+img{
+    border:5px black;
+    border-radius: 50%;
+}
+/* div{
+    background-color: cadetblue;
+} */
+nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+.logo-a{
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    padding-left: 2rem;
+}
+.nav-links>a{
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.search>input{
+    border: none;
+    border-bottom: 2px solid black;
+}
+.sec{
+    background-image: url('pexels-aleksandar-pasaric-325185.jpg');
+    height: 20rem;
+}
+h2{
+    padding-left: 28%;
+    padding-top: 15%;
+}
+p{
+    font-size: 15px;
+    
+}
